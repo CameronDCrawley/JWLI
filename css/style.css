@@ -1,0 +1,303 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header,ul{
+  display:flex;
+  justify-content: space-around;
+  list-style-type: none;
+    gap: 5em;
+}
+
+li a {
+  text-decoration: none;
+  color:rgb(129,125,130)
+}
+
+main{
+  background: rgb(242,243,245);
+  background-image: url(jwliLogo.png),url(women.png);
+  background-repeat: no-repeat,no-repeat;
+  background-position: top left,right;
+  background-size: 200px,200px;
+  height: 200px;
+  width: 50%;
+  margin-left: 25%;
+  
+}
+
+main > h1{
+margin-left: 10%;
+}
+
+main > h2{
+  margin-left: 3%;
+}
+
+
+main > p {
+  margin-left: 1%;
+  font-size: small;
+  width: 100%;
+  padding-top: 80px;
+}
+main > h2 + p {
+  margin-left:4%;
+}
+textarea{
+  margin-left: 2%;
+  width: 25%;
+}
+
+main section > p {
+  margin-left: 1%;
+}
+
+.goalsC{
+  display:flex;
+  height: 200px;
+justify-content: center;
+
+  
+}
+section > h2 {
+  display: flex;
+  justify-content: center;
+  margin-top:5%
+}
+.goalSec{
+  margin-top: 2%;
+width: 25%;
+height: 30px;
+border-top: 1px solid pink;
+
+
+}
+section.goalSec{
+margin-left: 5%;
+
+}
+.goalSec2{
+width: 45%;
+height: 20px;
+margin-left: 35%;
+margin-bottom: 3%;
+}
+
+.historyC{
+  display:flex;
+  margin-left: 15%;
+  background:rgb(242,243,245);
+  width:87%;
+  /*background-image: url(Photo1.png),url(Photo2.png);
+  background-size: 500px,500px;
+  background-position:top,bottom;
+  background-repeat: no-repeat,no-repeat;
+  width:100%;
+  height:200px,200px;
+  */
+
+}
+
+section.historyC > section > h2 {
+flex-direction: column;
+margin-bottom: 2%;
+}
+section.historyC{
+height:750px;
+flex-direction: column;
+
+}
+.historyC > section > section {
+  
+  gap:30px;
+}
+
+
+section.historyC > section > article > p
+{
+  width:22%;
+  font-size: 1rem;
+}
+
+
+.whoC{
+  border: 1px solid gray;
+  background-image: url(founder.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 250px;;
+    width: 55%;
+    margin-left: 15%;
+
+}
+.whoS{
+  margin-left:25% ;
+  width:48%;
+  height:30px;
+}
+.infoC{
+display:flex;
+height: 200px;
+width: 80%;
+gap:10rem;
+
+}
+.infoSec{
+  margin-top: 2%;
+width: 25%;
+height: 30px;
+margin-left: 20%;
+}
+ section.infoC > section:nth-child(1) > h3{
+      color: rgb(162,167,171);
+
+}
+section.infoC > section:nth-child(2) > h3 {
+  border-bottom: 1px solid rgb(162,167,171);
+  width: 25%;
+  color: rgb(162,167,171);
+}
+ section.infoC > section:nth-child(2) > h4 {
+    color: rgb(162,167,171);
+
+}
+
+
+.moreI{
+  background:rgb(187,197,207) ;
+  height: 100px;
+}
+
+.moreI > span{
+  color:white;
+  font-size: x-large;
+  margin-left: 10%;
+}
+section.moreI > textarea{
+  margin-left: 15%;
+  margin-top: 1%;
+  width: 25%;
+}
+
+button{
+color:white;
+background: rgb(146,156,163);
+font-size: x-large;
+}
+.headerB{
+  background: rgb(52,57,66);
+}
+
+footer{
+  background: rgb(146,156,163);
+  height: 200px;;
+
+}
+
+
+.footerSec1{
+    display: flex;
+flex-direction: row;
+  border-bottom: 1px solid white;
+width: 50%;
+color: white;
+}
+body > footer > section.footerSec1 > ul > li > a{
+  color: white;;
+}
+
+.footerSec2{
+display: flex;
+flex-direction: row;
+color: white;
+}
+body > footer > section.footerSec2 > ul > li > a{
+  color:white;
+}
+
+
+.imgCon{
+  display: flex;
+  position: top right;
+  width: 100%;
+  height:80px;
+  margin-left:25%;
+  padding-right: 30%;
+  flex-direction: column-reverse;
+
+
+
+}
+section.infoC{
+  height:400px;
+}
+
+img.imgC{
+  width: 30%;
+  height:300px;
+}
+img.imgC2{
+  width: 30%;
+  height:300px;
+
+}
+
+figcaption{
+  margin-left: 10%;
+}
+
+
+
+section.historyC > h2{
+  flex-direction:row ;
+  justify-content: flex-start;
+  margin-bottom: 1%;
+}
+
+
+
+/* desktop */
+@media (max-width:1200px) {
+  img.imgC,.imgCon,img.imgC2{
+display:none;
+}
+figcaption{
+  display:none;
+}section:nth-child(5){
+display: none;}
+section.historyC{
+  width:40%;
+  flex-direction:row-reverse;
+  flex-wrap: wrap;
+} section.historyC > section > article > p{
+  width:100%;
+  height:300px;
+} section.infoC{
+  width:100%;
+}section:nth-child(3) > section.goalSec2 > p{
+float:left
+}
+}
+
+/* tablet*/
+
+@media(max-width:820px){
+  .historyH,.moreI,footer{
+    display:none;
+  }section.historyC{
+width: 80%;  }
+
+}
+/* mobile */
+
+@media(max-width:460px){
+  section.historyC,main,section.goalsC,section:nth-child(3) > section.goalSec2 > p{
+    display:none;
+  }
+  ul{
+    flex-direction: column;
+  }
+
+}
