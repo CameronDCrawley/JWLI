@@ -18,13 +18,18 @@ Interactive Forms: Integrated email sign-up and newsletter submission text areas
 Comprehensive Footer: Organized sitemap and social media links (YouTube, Facebook, Newsletter).
 
 ## How It Works
-Structure & Layout: Built using semantic HTML5 elements (<header>, <main>, <section>, <article>, <figure>, <footer>) to maintain a clean document outline.
+Structure & Layout: Built using semantic HTML5 elements to maintain a clean document outline.
 
-Styling Integration: Linked to an external stylesheet (css/style.css) for responsive styling, typography, and grid/flex layout positioning.
+Styling Integration: Linked to an external stylesheet for responsive styling, typography, and grid/flex layout positioning.
 
-Interactive Components: Incorporates form inputs (<textarea> and <button>) for user engagement and newsletter signups.
+Interactive Components: Incorporates form inputs for user engagement and newsletter signups.
 
 ## Built With
 HTML5
 
 CSS3
+
+
+
+
+<img width="2840" height="1545" alt="image" src="https://github.com/user-attachments/assets/70280778-e94f-4510-a90c-18fa54326545" />
